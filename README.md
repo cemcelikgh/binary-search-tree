@@ -1,11 +1,18 @@
-# binary-search-tree-kodluyoruz-patika
-Patika.dev Veri Yapıları ve Algoritmalar Ödev 3
+# binary-search-tree
+Patika Beginner Frontend Web Development Path Certification Task
+<br>Binary Search Tree
 
----
+<br>
 
 [ 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 ]
 
-root= 7; insert=5, 7'nin solunda bulunur
+root: 7
+
+```
+7
+```
+
+insert: 5, 7'nin soluna yerleştirilir
 
 ```
   7
@@ -13,7 +20,7 @@ root= 7; insert=5, 7'nin solunda bulunur
 5
 ```
 
-insert=1, 7'nin solunda, 5'in solunda bulunur
+insert: 1; 7'nin soluna, 5'in soluna yerleştirilir
 
 ```
     7
@@ -23,7 +30,7 @@ insert=1, 7'nin solunda, 5'in solunda bulunur
 1
 ```
 
-insert=8, 7'nin sağında bulunur
+insert: 8; 7'nin sağına yerleştirilir
 
 ```
     7
@@ -33,7 +40,7 @@ insert=8, 7'nin sağında bulunur
 1
 ```
 
-insert=3, 7'nin solunda, 5'in solunda, 1'in sağında bulunur
+insert: 3; 7'nin soluna, 5'in soluna, 1'in sağına yerleştirilir
 
 ```
     7
@@ -45,7 +52,7 @@ insert=3, 7'nin solunda, 5'in solunda, 1'in sağında bulunur
   3
 ```
 
-insert=6, 7'nin solunda, 5'in sağında bulunur
+insert: 6; 7'nin soluna, 5'in sağına yerleştirilir
 
 ```
     7
@@ -57,7 +64,7 @@ insert=6, 7'nin solunda, 5'in sağında bulunur
   3
 ```
 
-insert=0, 7'nin solunda, 5'in solunda, 1'in solunda bulunur
+insert: 0; 7'nin soluna, 5'in soluna, 1'in soluna yerleştirilir
 
 ```
       7
@@ -69,7 +76,7 @@ insert=0, 7'nin solunda, 5'in solunda, 1'in solunda bulunur
 0   3
 ```
 
-insert=9, 7'nin sağında, 8'in sağında bulunur
+insert: 9; 7'nin sağına, 8'in sağına yerleştirilir
 
 ```
       7
@@ -81,7 +88,7 @@ insert=9, 7'nin sağında, 8'in sağında bulunur
 0   3
 ```
 
-insert=4, 7'nin solunda, 5'in solunda, 1'in sağında, 3'ün sağında bulunur
+insert: 4; 7'nin soluna, 5'in soluna, 1'in sağına; 3'ün sağına yerleştirilir
 
 ```
       7
@@ -94,7 +101,7 @@ insert=4, 7'nin solunda, 5'in solunda, 1'in sağında, 3'ün sağında bulunur
      \
       4
 ```
-insert=2, 7'nin solunda, 5'in solunda, 1'in sağında, 3'ün solunda bulunur
+insert: 2; 7'nin soluna, 5'in soluna, 1'in sağına, 3'ün soluna yerleştirilir
 
 ```
       7
